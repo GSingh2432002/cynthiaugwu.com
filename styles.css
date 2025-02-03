@@ -226,11 +226,6 @@ body {
     width: 100%;
 }
 
-/* #hero-footer a:hover {
-    color: #888;
-    opacity: .7;
-} */
-
 #hero-footer a i {
     display: inline-block;
     transition: transform 0.5s ease-out;
@@ -360,7 +355,6 @@ body {
     padding: 9vw 9vw;
     padding-left: 40vw;
     width: 91%;
-    /* height: 80vh; */
     display: flex;
     align-items: center;
     color: #fff;
@@ -467,7 +461,6 @@ body {
     font-weight: 500;
     text-decoration: none;
     position: relative;
-    /* gap: 10px; */
 }
 
 #footer-right a::after {
