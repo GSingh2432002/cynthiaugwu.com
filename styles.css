@@ -384,6 +384,13 @@ body {
     color: #fff;
     font-size: 12px;
     text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#text-about a:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
 }
 
 #about img {
@@ -476,4 +483,83 @@ body {
 
 #footer-right a:hover::after {
     width: 100%;
+}
+
+/* For reponsiveness */
+@media screen and (max-width: 768px) {
+    #nav {
+        padding: 15px 20px;
+    }
+
+    #heading h1 {
+        font-size: 8vw;
+        margin-left: 10px;
+    }
+
+    #heading #second-h1 {
+        margin-left: 50px;
+    }
+
+    .blocktext {
+        align-items: center;
+    }
+
+    #small-headings {
+        align-items: center;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+
+    #hero-footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 20px;
+        bottom: 5%;
+    }
+
+    #hero-footer #icon-set {
+        margin-top: 10px;
+    }
+
+    .element {
+        flex-direction: column;
+        align-items: center;
+        padding: 2vw 5vw;
+    }
+
+    .element a {
+        font-size: 6vw;
+    }
+
+    #about {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #about img {
+        width: 150px;
+    }
+
+    #text-about {
+        width: 100%;
+    }
+
+    #subscribe {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #footer-left,
+    #footer-right {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
