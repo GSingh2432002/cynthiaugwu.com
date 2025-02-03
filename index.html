@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cynthia Ugwu • Product Designer</title>
-    <!-- <link rel="icon" type="image/x-icon" href="./cynthia.webp" /> -->
+    <link rel="icon" type="image/x-icon" href="./cynthia.webp" />
     <link rel="stylesheet" href="./loco.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <span class="intro-page">
+      <h4>Cynthia Ugwu</h4>
+      <div></div>
+      <h4 class="timer">0%</h4>
+    </span>
     <div class="cursor"></div>
     <div id="main">
       <div id="hero">
@@ -82,6 +87,43 @@
           <span class="year">2023</span>
         </div>
       </div>
+      <div id="moving-animation">
+        <div class="marque-wrapper">
+          <div class="marque">
+            <img src="./marque/AVIS.svg" alt="" class="logo" />
+            <img src="./marque/Baron.svg" alt="" class="logo" />
+            <img src="./marque/Clover.svg" alt="" class="logo" />
+            <img src="./marque/Comcast.svg" alt="" class="logo" />
+            <img src="./marque/ETS.svg" alt="" class="logo" />
+            <img src="./marque/Expedia.svg" alt="" class="logo" />
+            <img src="./marque/Identity.svg" alt="" class="logo" />
+            <img src="./marque/Lucid.svg" alt="" class="logo" />
+            <img src="./marque/Microsoft.svg" alt="" class="logo" />
+            <img src="./marque/NEOM.svg" alt="" class="logo" />
+            <img src="./marque/NFL.svg" alt="" class="logo" />
+            <img src="./marque/Toefl.svg" alt="" class="logo" />
+            <img src="./marque/Under_armour.svg" alt="" class="logo" />
+            <img src="./marque/Zappos.svg" alt="" class="logo" />
+          </div>
+          <!-- Duplicating the marque for looping -->
+          <div class="marque">
+            <img src="./marque/AVIS.svg" alt="" class="logo" />
+            <img src="./marque/Baron.svg" alt="" class="logo" />
+            <img src="./marque/Clover.svg" alt="" class="logo" />
+            <img src="./marque/Comcast.svg" alt="" class="logo" />
+            <img src="./marque/ETS.svg" alt="" class="logo" />
+            <img src="./marque/Expedia.svg" alt="" class="logo" />
+            <img src="./marque/Identity.svg" alt="" class="logo" />
+            <img src="./marque/Lucid.svg" alt="" class="logo" />
+            <img src="./marque/Microsoft.svg" alt="" class="logo" />
+            <img src="./marque/NEOM.svg" alt="" class="logo" />
+            <img src="./marque/NFL.svg" alt="" class="logo" />
+            <img src="./marque/Toefl.svg" alt="" class="logo" />
+            <img src="./marque/Under_armour.svg" alt="" class="logo" />
+            <img src="./marque/Zappos.svg" alt="" class="logo" />
+          </div>
+        </div>
+      </div>
       <div id="about">
         <img src="./cynthia.webp" alt="" />
         <div id="text-about">
@@ -108,7 +150,7 @@
       <div id="footer">
         <div id="footer-left">
           <h5>© 2025</h5>
-          <h5>8:10 PM</h5>
+          <h5 class="current-time">8:10 PM</h5>
         </div>
         <div id="footer-right">
           <a href="#">Linkedin</a><a href="#">X/Twitter</a
